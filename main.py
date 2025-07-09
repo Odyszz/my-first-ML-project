@@ -52,6 +52,7 @@ X_train_scaled = scaler.fit_transform(x_train_np)
 X_test_scaled = scaler.transform(x_test_np)
 X_valid_scaled = scaler.transform(x_valid_np)
 
+
 # Преобразование в тензоры PyTorch
 '''
 первые проблемы с формой данных в y_train и y_test решились с помощью reshape
